@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiUserApplication<apiuser>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/apiuser",
+            "mainClass": "com.sermaluc.prueba.apiuser.prueba.ApiUserApplication",
+            "projectName": "apiuser",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": "-Dspring.profiles.active=dev"
+        },
+        {
+            "type": "java",
+            "name": "ApiUserApplication",
+            "request": "launch",
+            "mainClass": "com.sermaluc.prueba.apiuser.prueba.ApiUserApplication",
+            "projectName": "apiuser"
+        }
+    ]
+}
