@@ -17,6 +17,39 @@ Este proyecto es una API RESTful desarrollada con Spring Boot que permite regist
 - **Spring Security Crypto**: Para codificar contraseñas.
 - **JUnit**: Para pruebas unitarias e integración.
 
+## API Documentation
+### Swagger UI
+Una vez que la aplicación esté ejecutándose, puedes acceder a la documentación interactiva de la API en:
+
+**🔗 [Swagger UI - Local](http://localhost:8080/swagger-ui.html)**
+
+Alternativamente, también puedes usar:
+- http://localhost:8080/swagger-ui/index.html
+
+### OpenAPI Specification
+Para obtener la especificación OpenAPI en formato JSON:
+
+**🔗 [API Docs JSON](http://localhost:8080/v3/api-docs)**
+
+### Endpoints Principales
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/users/register` | Registrar nuevo usuario |
+
+### Cómo usar Swagger UI
+
+1. Inicia la aplicación (ver sección [Instalación](#instalación))
+2. Abre tu navegador y ve a http://localhost:8080/swagger-ui.html
+3. Explora los endpoints disponibles
+4. Prueba las APIs directamente desde la interfaz
+5. Revisa los modelos de datos y códigos de respuesta
+
+### Configuración personalizada
+- **Puerto por defecto:** 8080
+- **Context path:** `/api`
+- **Base URL:** http://localhost:8080
+
 ## **Ejecución del proyecto**
 
 ### **1. Clonar el repositorio**
